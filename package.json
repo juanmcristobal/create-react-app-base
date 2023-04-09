@@ -8,8 +8,13 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "eslint-config-prettier": "^8.8.0",
+    "i18next": "^22.4.14",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.2.0",
+    "msw": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
     "react-scripts": "^5.0.1",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^3.3.1"
@@ -55,6 +60,12 @@
     "prettier": "^2.8.7"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json}": ["npm run lint:fix", "npm run format"]
+    "src/**/*.{js,jsx,json}": [
+      "npm run lint:fix",
+      "npm run format"
+    ]
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

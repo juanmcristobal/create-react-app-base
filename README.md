@@ -30,6 +30,19 @@ The project is also configured with Husky to ensure that the code is properly fo
 
 When you try to commit with linting or formatting errors, Husky will notify you and prevent you from committing.
 
+## Mock Service Worker
+The project is configured with Mock Service Worker to mock API requests for development and testing purposes.
+
+For more information, refer to the Mock Service Worker documentation.
+
+## i18n
+The project is configured with i18n to support internationalization and localization.
+
+You can run the following command to extract translation messages from the source code:
+
+npm run extract: extracts the translation messages to the src/i18n/messages.json file.
+For more information, refer to the i18n documentation.
+
 ## Contribution
 If you want to contribute to the project, follow these steps:
 
@@ -37,7 +50,8 @@ Fork the repository to your GitHub account.
 Create a new feature or bug-fix branch.
 Make your changes and commit with descriptive messages.
 Make a pull request to the main branch of the original repository.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## License
+This project is licensed under the **MIT License**. See the LICENSE file for more details.
 
 Please feel free to customize and adjust this template to your specific project needs!
